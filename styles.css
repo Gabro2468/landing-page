@@ -1,6 +1,7 @@
 body{
     background-color: azure;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 0;
 }
 
 /* styles for header section */
@@ -177,4 +178,14 @@ body{
     background-color: azure;
     color: #3882f6;
     cursor: pointer;
+}
+
+/* style for footer */
+
+footer {
+    font-size: medium;
+    color: #1f2937;
+    margin-bottom: 0;
+    text-align: end;
+    font-style: italic;
 }
