@@ -20,9 +20,18 @@ body{
 }
 
 .header-link{
+    color: white;
     align-self: flex-end;
     align-self: center;
     font-size: 0.8rem;
+    transition-duration: 0.2s;
+}
+
+.header-link:hover{
+    cursor: pointer;
+    color: #3882f6;
+    font-size: 0.9rem;
+    font-weight: 600;
 }
 
 /* styles for upper section */
@@ -56,6 +65,7 @@ body{
     border: none;
     border-radius: 4px;
     transition-duration: 0.3s;
+    font-weight: 600;
 }
 
 .up-text button:hover{
@@ -120,11 +130,51 @@ body{
     font-style: italic;
     font-size: 1.6rem;
     color: #1f2937;
-    width: 596px;
+    width: 576px;
     flex: auto;
 }
 
 #quote-author{
     align-self: flex-end;
     margin-top: -2rem;
+}
+
+/* styles for advert section */
+
+.advert{
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content:space-between;
+    margin: 5rem auto;
+    padding: 1rem 5rem;
+    background-color: #3882f6;
+    color: azure;
+    border: 1px solid white;  
+    border-radius: 8px;
+    width: 680px;;
+    font-size: 12px;
+}
+
+.advert-text h3{
+    margin:0;
+}
+
+.advert-text p{
+    margin: 0;
+}
+
+.advert-button{
+    background-color: #3882f6;
+    color: azure;
+    border-color: azure;
+    padding: 0.3rem 1.2rem;
+    border-radius: 6px;
+    transition-duration: 0.3s;
+}
+
+.advert-button:hover{
+    background-color: azure;
+    color: #3882f6;
+    cursor: pointer;
 }
