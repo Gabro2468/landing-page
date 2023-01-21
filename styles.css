@@ -68,6 +68,7 @@ body{
 
 #icon-title{
     text-align: center;
+    margin-top: 2rem;
 }
 
 .icons{
@@ -103,4 +104,27 @@ body{
     font-size: 0.9rem;
     text-align: center;
     max-width: 8rem;
+}
+
+/* styles for quote section */
+
+.quote{
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    padding: 4rem 12rem;
+    align-items: center;
+}
+
+#quote-text{
+    font-style: italic;
+    font-size: 1.6rem;
+    color: #1f2937;
+    width: 596px;
+    flex: auto;
+}
+
+#quote-author{
+    align-self: flex-end;
+    margin-top: -2rem;
 }
